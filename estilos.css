@@ -11,3 +11,8 @@
     color: #4286f4;
     font-size: 40px;
 }
+
+.radio {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
