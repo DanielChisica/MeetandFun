@@ -60,6 +60,7 @@
 .img {
     background: url(Recursos/laptop-3373638_1920.jpg);
     height: 1000px;
+
 }
 
 .fondo {
@@ -71,10 +72,14 @@
 
 .registration-login-form {
     background-color: white;
-    padding: 20px;
+    padding: 50px;
     border-radius: 25px;
 }
 
 .nav-item {
     width: 50%;
+}
+
+.btn-purple {
+
 }
