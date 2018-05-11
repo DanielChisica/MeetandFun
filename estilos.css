@@ -16,3 +16,53 @@
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
 }
+
+.bg-facebook {
+  background-color: #3b5998;
+}
+
+.fab {
+    color: white;
+}
+
+.fa-facebook-f {
+    color: white;
+}
+
+.btn-icon-left {
+    color: white;
+}
+
+.bg-twitter {
+    background-color: #00aced;
+}
+
+
+ &.active,
+      &:hover {
+        color: #fff;
+        background-color: transparent;
+      }
+
+.beinvenida {
+    margin-top: 600px;
+    color: white;
+}
+
+.form {
+    margin-top: 200px;
+}
+.full-width {
+  width: 100%;
+}
+
+.img {
+    background: url(Recursos/laptop-3373638_1920.jpg);
+    height: 1000px;
+}
+
+.fondo {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
