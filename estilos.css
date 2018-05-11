@@ -46,20 +46,23 @@
       }
 
 .beinvenida {
-    margin-top: 600px;
+    margin-top: 300px;
     color: white;
 }
 
 .form {
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .full-width {
   width: 100%;
 }
 
 .img {
-    background: url(Recursos/laptop-3373638_1920.jpg);
-    height: 1000px;
+    background: url(Recursos/fondo-01.png);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    height: 1100px;
+
 
 }
 
@@ -82,4 +85,20 @@
 
 .btn-purple {
 
+}
+
+.boton {
+    background-color: #ffb71c;
+    color: white;
+}
+
+
+.logo {
+    height: 80px;
+    width: 350px;
+}
+
+.bg {
+    background: url(Recursos/mapa-01.png);
+    background-size: 100%;
 }
