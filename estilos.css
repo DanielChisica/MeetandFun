@@ -94,11 +94,50 @@
 
 
 .logo {
-    height: 80px;
-    width: 350px;
+    height: 40px;
+    width: 210px;
 }
 
-.bg {
-    background: url(Recursos/mapa-01.png);
+
+
+.fondo2 {
+    background: url(Recursos/city-01.png);
+    height: 1000px;
     background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+.font {
+    font-family: 'Lato', sans-serif;
+    margin-top: 350px;
+}
+
+
+
+.1 {
+    width: 180px;
+}
+
+
+
+.ciudad {
+    width: 150px;
+}
+
+
+
+.select {
+    width: 300px;
+    margin-left: 250px;
+}
+
+.conten {
+    margin-top: 80px;
+    margin-right: 80px;
+}
+
+.left {
+    margin-right: 150px;
 }
