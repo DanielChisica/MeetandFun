@@ -29,11 +29,38 @@
   </div>
 
 
-  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
-    <button type="button" class="btn btn-warning"><i class="fas fa-user"></i> Ingresar</button>
-    <div class="ml-2"></div>
-    <button type="button" class="btn btn-outline-warning">Regitrase</button>
 
+  <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+      <div class="dropdown">
+      <button class="btn btn-secondary dropdown-toggle btn btn-warning" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>
+        Ingresar</button>
+      <div class="dropdown-menu">
+          <form class="px-4 py-3">
+            <div class="form-group">
+              <label for="exampleDropdownFormEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+            </div>
+            <div class="form-group">
+              <label for="exampleDropdownFormPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="dropdownCheck">
+              <label class="form-check-label" for="dropdownCheck">
+                Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Sign in</button>
+          </form>
+  <div class="dropdown-divider"></div>
+  <a class="dropdown-item" href="#">New around here? Sign up</a>
+  <a class="dropdown-item" href="#">Forgot password?</a>
+</div>
+    </div>
+<div class="ml-2"></div>
+    <a href="formulario.html">
+    <button  type="button" class="btn btn-outline-warning">Regitrase</button>
+    </a>
  </div>
 </nav>
 </div>
@@ -46,12 +73,16 @@
     </div>
     <div class="row">
         <div class="col-6">
-           <select class="form-control form-control-lg select">
-              <option><i class="fas fa-beer"></i> Planes de Fiesta</option>
-              <option><i class="far fa-futbol"></i> Partidos de Futbol</option>
-              <option><i class="fas fa-beer"></i> Planes de Fiesta</option>
-              <option><i class="fas fa-beer"></i> Planes de Fiesta</option>
-            </select>
+          <div class="btn-group margin">
+                <button class="btn btn-secondary btn-lg dropdown-toggle btn1" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Buscar planes
+              </button>
+              <div class="dropdown-menu dropdown-menu-right bg">
+                <button class="dropdown-item" type="button"><i class="fas fa-beer"></i> Action</button>
+                <button class="dropdown-item" type="button"><i class="far fa-futbol"></i> Another action</button>
+                <button class="dropdown-item" type="button"><i class="fas fa-beer"></i> Something else here</button>
+              </div>
+            </div>
         </div>
         <div class="col-6">
            <form>
@@ -69,19 +100,19 @@
 </section>
 <div class="container">
   <div class="row">
-      <div class="col d-flex justify-content-center conten">
+      <div class="col-12 d-flex justify-content-center conten">
        <h6>Descubre lugares que les encantan a tus amigos.</h6>
        </div>
        </div>
-   <div class="d-flex justify-content-center">
-   <div class="col-4">
-       <button type="button" class="btn btn-primary"><i class="fab fa-facebook-square"></i> Regístrate con Facebook</button>
+
+   <div class="col-12  d-flex justify-content-center">
+       <button type="button" class="btn facebook"><i class="fab fa-facebook-square"></i> Regístrate con Facebook</button>
 
    </div>
-   </div>
-   <div class="col d-flex justify-content-center left">
+   <div class="col-12  d-flex justify-content-center">
    <p>or <a href="#">Regístrate con tu email!</a> y disfruta de una comunidad!</p>
-   </div>
+    </div>
+
 </div>
 
 

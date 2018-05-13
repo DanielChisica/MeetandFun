@@ -134,10 +134,45 @@
 }
 
 .conten {
-    margin-top: 80px;
+    margin-top: 50px;
     margin-right: 80px;
 }
 
 .left {
-    margin-right: 150px;
+    margin-right: 300px;
+}
+
+.facebook {
+    background-color: #3B5998;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn1 {
+    width: 350px;
+    background-color: white;
+    color: gray;
+}
+
+.margin {
+    margin-left: 200px;
+}
+
+.bg {
+    width: 350px;
 }
