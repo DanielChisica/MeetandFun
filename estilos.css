@@ -1,6 +1,7 @@
 
 .dropdown {
     background-color: #2571ea;
+
 }
 
 .actividades {
@@ -147,22 +148,6 @@
     color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .btn1 {
     width: 350px;
     background-color: white;
@@ -175,4 +160,32 @@
 
 .bg {
     width: 350px;
+}
+
+.dropdown-menu {
+    width: 350px;
+}
+
+.back {
+    background-color: rgb(252, 183, 45)
+}
+
+#map {
+    width: 100%;
+    height: 700px;
+}
+
+.planes {
+    height: 600px;
+}
+
+.card {
+    height: 700px;
+    width: 811px;
+
+
+}
+
+.card-img-top {
+    background-size: 100%;
 }
