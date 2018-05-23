@@ -1,8 +1,5 @@
 
-.dropdown {
-    background-color: #2571ea;
 
-}
 
 .actividades {
 
@@ -163,7 +160,9 @@
 }
 
 .dropdown-menu {
-    width: 350px;
+    width: 270px;
+
+
 }
 
 .back {
@@ -188,4 +187,66 @@
 
 .card-img-top {
     background-size: 100%;
+}
+
+
+
+.profile {
+   width: 40px;
+    height: 40px;
+}
+
+.back-logo {
+    background-color: rgb(255, 191, 15);
+    width: 450px;
+    height: 79px;
+    margin-top: -15px;
+    margin-left: -20px;
+    margin-bottom: -9px;
+
+}
+
+.navbar-brand {
+
+}
+
+.5 {
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+.login1 {
+    font-size: 30px;
+
+}
+
+.color {
+    color: black;
+}
+
+.icons {
+    color: #ffbf0f;
+}
+
+.top {
+    margin-top: 8px;
+}
+
+.back-acount {
+    background-image: url(Recursos/panoramic-landscape-2305606_1920.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.titulo {
+    color: white;
+    margin-top: 120px;
+}
+
+.text {
+    align-content: center;
+    color: white;
 }
