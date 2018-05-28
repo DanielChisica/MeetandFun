@@ -14,13 +14,14 @@
     <title>Configuraciones</title>
 </head>
 <body>
-<nav class="navbar navbar-light bg-light">
+<section class="back-acount">
+<nav class="navbar navbar-light">
   <a class="navbar-brand" href="#">
     <img src="Recursos/logo%20blanco.png" alt="" class="logo">
   </a>
 <div class="d-flex justify-content-end" id="navbarSupportedContent">
     <div class="dropdown">
-      <button  class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="Recursos/user.png" alt="..." class="rounded-circle profile"> Nombre Usuario </button>
+      <button  class="user btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="Recursos/user.png" alt="..." class="rounded-circle profile"> Nombre Usuario </button>
           <div class="dropdown-menu dropdown-menu-right">
               <div class="container">
                   <div class="row ml-2">
@@ -52,14 +53,111 @@
 </div>
 
 </nav>
-<div class="back-acount">
-  <div class="d-flex justify-content-center">
-   <h1 class="titulo">Acount Setings</h1>
+<div>
+
+<div class="container d-flex juestify-content-center password">
+	<div class="row">
+		<div class="col-md-6 offset-md-3">
+            <!-- form card change password -->
+                    <div class="card card-outline-secondary">
+                        <div class="card-header">
+                            <h3 class="">Cambiar Contraseña</h3>
+                        </div>
+                        <div class="card-body align-items-start">
+                            <form class="form" role="form" autocomplete="off">
+                                <div class="form-group">
+                                    <label for="inputPasswordOld">Contraseña Actual</label>
+                                    <input type="password" class="form-control" id="inputPasswordOld" required="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordNew">Nueva Contraseña</label>
+                                    <input type="password" class="form-control" id="inputPasswordNew" required="">
+                                    <span class="form-text small text-muted">
+                                            La contraseña debe contener entre 8-20 caracteres, y <em>no</em> contener espacios.
+                                    </span>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputPasswordNewVerify">Repetir la contraseña</label>
+                                    <input type="password" class="form-control" id="inputPasswordNewVerify" required="">
+                                    <span class="form-text small text-muted">
+                                            Para confirmar, escriba de nuevo la contraseña.
+                                        </span>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success btn-lg float-right">Guardar</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+        </div>
     </div>
+    </div>
+    </div>
+</section>
+<div class="cta-sektion  border py-3">
     <div class="container">
-        <h5 class="text">Welcome to your account dashboard! Here you’ll find everything you need to change your profile information, settings, read notifications and requests, view your latest messages, change your pasword and much more! Also you can create or manage your own favourite page, have fun!</h5>
+        <div class="row">
+            <div class="col-md-9 col-sm-9 col-xs-12">
+                <h3><span class="glyphicon glyphicon-cog "></span> <b>Desocupado?</b> Explora nuestros planes.</h3>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-12 ">
+                <button type="button" class="btn bg-warning twhite">Buscar</button>
+            </div>
+        </div>
     </div>
 </div>
+
+<div class="footer  py-5  ">
+	<div class="container">
+	  <div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-3 footer-one">
+		    <img  src="Recursos/logo2-01.png" alt="Logo" style="width:120px;">
+
+		    <p class="pt-4">Cras sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+		    	<div class="social-icons">
+               <a href="https://www.facebook.com/"><i class="fab fa-facebook fig"></i></a>
+               <a href="https://twitter.com/"><i class="fab fa-google-plus-g fig"></i></a>
+	            <a href="https://plus.google.com/"><i class="fab fa-twitter-square fig"></i></a>
+	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fig"></i></a>
+	        </div>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 footer-two">
+		    <h5>Information </h5>
+		    <ul class="list-unstyled">
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+								</ul>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 footer-three">
+		    <h5>Helpful Links </h5>
+		    <ul class="list-unstyled">
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+								</ul>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-3 footer-four">
+		    <h5>Helpful Links </h5>
+		    <ul class="list-unstyled">
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+									<li><a href="#"></a></li>
+								</ul>
+		</div>
+	  </div>
+	</div>
+</div>
+
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

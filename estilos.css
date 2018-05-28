@@ -49,7 +49,7 @@
 }
 
 .form {
-    margin-top: 150px;
+
 }
 .full-width {
   width: 100%;
@@ -179,8 +179,9 @@
 }
 
 .card {
-    height: 700px;
+    height: 500px;
     width: 811px;
+    align-content: flex-start;
 
 
 }
@@ -236,9 +237,9 @@
 
 .back-acount {
     background-image: url(Recursos/panoramic-landscape-2305606_1920.jpg);
-    height: 350px;
+    height: 600px;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 150%;
 }
 
 .titulo {
@@ -249,4 +250,39 @@
 .text {
     align-content: center;
     color: white;
+}
+
+.btn {
+
+}
+
+.card-header {
+
+}
+
+.footer {
+    margin-top: 30px;
+}
+
+.card-body {
+   padding-bottom: 500px;
+
+
+}
+
+.password {
+    margin-top: 20px;
+}
+
+.user {
+    background-color: transparent;
+}
+
+.fig {
+    font-size: 48px;
+}
+
+.logo1 {
+
+    background-size: 400px;
 }
