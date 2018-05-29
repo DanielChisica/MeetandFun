@@ -193,8 +193,9 @@
 
 
 .profile {
-   width: 40px;
-    height: 40px;
+   width: 30px;
+    height: 30px;
+
 }
 
 .back-logo {
@@ -237,7 +238,7 @@
 
 .back-acount {
     background-image: url(Recursos/panoramic-landscape-2305606_1920.jpg);
-    height: 600px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: 150%;
 }
@@ -279,10 +280,20 @@
 }
 
 .fig {
-    font-size: 48px;
+    font-size: 40px;
+    color: #f7c42a;
 }
 
 .logo1 {
 
     background-size: 400px;
+}
+
+.p {
+    color: white;
+}
+
+.dropdown-toggle {
+    color: white;
+    padding-top: 3px;
 }
