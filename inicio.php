@@ -58,7 +58,7 @@
 </div>
     </div>
 <div class="ml-2"></div>
-    <a href="formulario.html">
+    <a href="formulario.php">
     <button  type="button" class="btn btn-outline-warning">Regitrase</button>
     </a>
  </div>

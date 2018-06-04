@@ -46,8 +46,8 @@
                   </div>
               </div>
           <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="formulario.html">No tiene cuenta? Registrese</a>
-          <a class="dropdown-item" href="configuraciones.html">Olvido su Contraseña?</a>
+          <a class="dropdown-item" href="formulario.php">No tiene cuenta? Registrese</a>
+          <a class="dropdown-item" href="configuraciones.php">Olvido su Contraseña?</a>
         </div>
     </div>
 </div>

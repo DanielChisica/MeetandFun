@@ -23,7 +23,7 @@
     <button class="btn btn-secondary dropdown-toggle btn btn-light" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user"></i>
     Ingresar</button>
     <div class="ml-2"></div>
-    <a href="formulario.html">
+    <a href="formulario.php">
     <button  type="button" class="btn btn-outline-light">Regitrase</button>
     </a>
 
