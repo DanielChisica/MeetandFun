@@ -77,25 +77,51 @@
 
             </section>
         </div>
+    <div class="col-md-8 col md offset-2">
+        <div id="funCarousel" class="carousel slide" data-ride="carousel" data-interval="false" data-keyboard="false">
+            <div class="carousel-inner">
+                    <div class="carousel-item active col-md-8 col md offset-2 boxmodel">
+                        <img class="d-block w-100 resized" src="Recursos/01.jpg">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Título del Evento</h5>
+                            <p>Descripción</p>
+                        </div>
+                    </div>
+                    <?php
+                    include ('Php/images.php');
+                    ?>
+            </div>
 
-
-        <div class="container-fluid">
-
-
-            <div class="row">
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="white-box">Box 1</div></div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="white-box">Box 2</div></div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="white-box">Box 3</div></div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="white-box">Box 4</div></div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="white-box">Box 5</div></div>
-                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12"><div class="white-box">Box 6</div></div>
+            <div style="text-align: center">
+                <a href="#funCarousel" role="button" data-slide="prev">
+                    <span class="fas fa-undo backward" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a href="#funCarousel" role="button" data-slide="next">
+                    <span class="fab fa-gratipay liked" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <a href="#funCarousel" role="button" data-slide="next">
+                    <span class="fas fa-times-circle rejected" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
-
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
+    </div>
+        <div>
+            <form method="post" enctype="multipart/form-data">
+                <br/>
+                    <input type="file" name="image" />
+                <br/><br/>
+                <input type="submit" name="imgsubmit" value="Upload" />
+                <br/><br/>
+                <input type="submit" name="imgdisplay" value="Display" />
+            </form>
+        </div>
+    <!--<script type="text/javascript" src="JS/Functions.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.12/js/all.js" integrity="sha384-Voup2lBiiyZYkRto2XWqbzxHXwzcm4A5RfdfG6466bu5LqjwwrjXCMBQBLMWh7qR" crossorigin="anonymous"></script>
 </body>
 </html>
