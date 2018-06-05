@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GoogleMap/.idea/GoogleMap.iml" filepath="$PROJECT_DIR$/../GoogleMap/.idea/GoogleMap.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Meet&amp;Fun.iml" filepath="$PROJECT_DIR$/.idea/Meet&amp;Fun.iml" />
     </modules>
   </component>
