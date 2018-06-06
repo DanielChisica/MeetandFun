@@ -88,7 +88,8 @@
                         </div>
                     </div>
                     <?php
-                    include ('Php/images.php');
+                    include('Php/DisplayEvent.php');
+                    displayEvent();
                     ?>
             </div>
 
@@ -109,14 +110,6 @@
         </div>
     </div>
         <div>
-            <form method="post" enctype="multipart/form-data">
-                <br/>
-                    <input type="file" name="image" />
-                <br/><br/>
-                <input type="submit" name="imgsubmit" value="Upload" />
-                <br/><br/>
-                <input type="submit" name="imgdisplay" value="Display" />
-            </form>
         </div>
     <!--<script type="text/javascript" src="JS/Functions.js"></script>-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

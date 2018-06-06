@@ -20,9 +20,11 @@
 <body>
     
     <div class="formularioEvento">
-        <div class="form">
+        <form method="post" enctype="multipart/form-data" id="form">
             <h1>Crea un evento!!</h1>
-            
+            <?php
+            include ('Php/CreateEvent.php');
+            ?>
             <p><input type="date" name="fecha" id="fecha"></p>
             <p><input type="time" name="hora" id="hora"></p>
             <p><textarea name="descripcion" id="descripcion" cols="30" rows="10" placeholder="Descríbenos tu evento!"></textarea> </p>
@@ -48,7 +50,7 @@
             <input type="file" name="image" value="Examinar">
             <br/><br/>
             <input type="submit" name="send" value="Crear Evento">
-        </div>
+        </form>
     </div>
     <script src="JS/Maps.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChTzXzJ1CWsrWn51ke7cXcu-2-fBqmy_I&callback=initMap"></script>
