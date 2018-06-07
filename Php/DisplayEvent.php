@@ -6,6 +6,9 @@
  * Time: 11:42 PM
  */
 
+/**
+ * Realiza una conexión con la base de datos donde selecciona 10 eventos para mostrarlos en un carrusel
+ */
 function displayEvent()
 {
     $con=mysqli_connect("localhost","root","thejoker1");
