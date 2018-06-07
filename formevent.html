@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>Material Bootstrap Wizard by Creative Tim</title>
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="logica2.js"></script>
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+<link rel="stylesheet" href="estilosup.css">
+
+</head>
+
+<body>
+    <div class="image-container set-full-height" style="background-image: url('http://demos.creative-tim.com/material-bootstrap-wizard/assets/img/wizard-book.jpg')">
+	    <!--   Creative Tim Branding   -->
+	    <a href="http://creative-tim.com" target="_blank">
+	         <div class="logo-container">
+	            <div class="logo">
+	                <img src="http://demos.creative-tim.com/material-bootstrap-wizard/assets/img/new_logo.png">
+	            </div>
+	            <div class="brand">
+	                User Name
+	            </div>
+	        </div>
+	    </a>
+
+		<!--  Made With Material Kit  -->
+		<a href="http://demos.creative-tim.com/material-kit/index.html?ref=material-bootstrap-wizard" class="made-with-mk" target="_blank">
+			<div class="brand">MF</div>
+			<div class="made-with">MEET <strong>FUN</strong></div>
+		</a>
+
+	    <!--   Big container   -->
+	    <div class="container">
+	        <div class="row">
+		        <div class="col-sm-8 col-sm-offset-2">
+		            <!-- Wizard container -->
+		            <div class="wizard-container">
+		                <div class="card wizard-card" data-color="red" id="wizard">
+		                    <form action="" method="">
+		                <!--        You can switch " data-color="blue" "  with one of the next bright colors: "green", "orange", "red", "purple"             -->
+
+		                    	<div class="wizard-header">
+		                        	<h3 class="wizard-title">
+		                        		Crear Evento
+		                        	</h3>
+									<h5>Llene los campos para agregar un evento</h5>
+		                    	</div>
+				        <div class="tab-content">
+		                            <div class="row">
+
+		                                	<div class="col-sm-12">
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons">email</i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Su email</label>
+			                                          	<input name="name" type="text" class="form-control">
+			                                        </div>
+												</div>
+
+												<div class="input-group">
+													<span class="input-group-addon">
+														<i class="material-icons"></i>
+													</span>
+													<div class="form-group label-floating">
+			                                          	<label class="control-label">Nombre</label>
+			                                          	<input name="name2" type="text" class="form-control">
+			                                        </div>
+												</div>
+
+		                                	</div>
+
+		                            	</div>
+		                            </div>
+		                            <div class="tab-pane" id="captain">
+		                                <h4 class="info-text">Seleccione una actividad</h4>
+		                                <div class="row">
+		                                    <div class="col-sm-10 col-sm-offset-1">
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="This is good if you travel alone.">
+		                                                <input type="radio" name="job" value="Design">
+		                                                <div class="icon">
+		                                                    <i class="material-icons fas fa-utensils icon1"></i>
+		                                                </div>
+		                                                <h6>Comida</h6>
+		                                            </div>
+		                                        </div>
+		                                        <div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this room if you're traveling with your family.">
+		                                                <input type="radio" name="job" value="Code">
+		                                                <div class="icon">
+		                                                    <i class="material-icons fas fa-beer icon1"></i>
+		                                                </div>
+		                                                <h6>Fiesta!</h6>
+		                                            </div>
+		                                        </div>
+												<div class="col-sm-4">
+		                                            <div class="choice" data-toggle="wizard-radio" rel="tooltip" title="Select this option if you are coming with your team.">
+		                                                <input type="radio" name="job" value="Code">
+		                                                <div class="icon">
+		                                                    <i class="material-icons fas fa-film icon1"></i>
+		                                                </div>
+		                                                <h6>Plan de Amigos</h6>
+		                                            </div>
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+		                            <div class="tab-pane" id="description">
+		                                <div class="row">
+		                                    <h4 class="info-text"> Describa el evento</h4>
+		                                    <div class="col-sm-6 col-sm-offset-1">
+	                                    		<div class="form-group">
+		                                            <label>Descripcion</label>
+		                                            <textarea class="form-control" placeholder="" rows="6"></textarea>
+		                                        </div>
+		                                    </div>
+		                                    <div class="col-sm-4">
+		                                    	<div class="form-group">
+		                                            <label class="control-label">Map</label>
+		                                            <p>Ubica el banderín sobre el lugar y dale click para traer la ubicación</p>
+            <p><input type="text" name="latitude" id="lat">
+                <input type="text" name="longitude" id="lon"></p>
+            <div id="map"></div><div id="pan"></div>
+            <p>Selecciona una imagen que identifique tu evento(Opcional)</p>
+            <br/>
+            <input type="file" name="image" value="Examinar">
+            <br/><br/>
+            <input type="submit" name="send" value="Crear Evento">
+		                                        </div>
+		                                    </div>
+		                                </div>
+		                            </div>
+
+	                        	<div class="wizard-footer">
+	                            	<div class="pull-right">
+
+	                                </div>
+	                                <div class="pull-left">
+
+										<div class="footer-checkbox">
+											<div class="col-sm-12">
+											  <div class="checkbox">
+												  <label>
+
+												  </label>
+
+											  </div>
+										  </div>
+										</div>
+	                                </div>
+	                                <div class="clearfix"></div>
+	                        	</div>
+		                    </form>
+		                </div>
+		            </div> <!-- wizard container -->
+		        </div>
+	    	</div> <!-- row -->
+		</div> <!--  big container -->
+
+	    <div class="footer">
+	        <div class="container text-center">
+	             Hecho <i class="fa fa-heart heart"></i> con <a href="" target="_blank">amor</a>.
+	        </div>
+	    </div>
+	</div>
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+<script src="JS/Maps.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyChTzXzJ1CWsrWn51ke7cXcu-2-fBqmy_I&callback=initMap"></script>
+</body>
+
+</html>
