@@ -30,6 +30,24 @@ if (isset($_POST['send']))
     }
 }
 
+/**
+ *
+ * Se realiza una conexión con la base de datos y se ingresan los valor de las variables obtenidas
+ * en los condicionales anteriores a los campos de la base de datos.
+ * En caso de que se efectúe adecuadamente la inserción, se primirá "Insertedd data", en caso contrario
+ * imprimirá "Review your query"
+ * Finalmente cierra la conexión con la base de datos.
+ *
+ * @param $fecha la variable fecha para ingresarla en la base de datos.
+ * @param $hora la variable hora para ingresarla en la base de datos.
+ * @param $descripcion la variable descripcion para ingresarla en la base de datos.
+ * @param $integrantes la variable integrantes para ingresarla en la base de datos.
+ * @param $latitud la variable latitud para ingresarla en la base de datos.
+ * @param $longitud la variable longitud para ingresarla en la base de datos.
+ * @param $tipo la variable tipo para ingresarla en la base de datos.
+ * @param null $image la variable imagen para ingresarla en la base de datos en caso de
+ * que exista
+ */
 function saveEvent($fecha,$hora,$descripcion,$integrantes,$latitud,$longitud,$tipo,$image=null)
 {
     $con=mysqli_connect("localhost","root","thejoker1");
