@@ -325,3 +325,39 @@
     border: 3px solid #f45400;
 }
 
+
+.formulario {
+    align-content: center;
+
+
+}
+
+.input-group-addon.primary {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 118, 177);
+    border-color: rgb(40, 94, 142);
+     border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+
+
+.icon2 {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    margin-top: 2px;
+
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.bg6 {
+    background: url(Recursos/dandelion-3416140_1920.jpg);
+    height: 1000px;
+    background-repeat: no-repeat;
+
+}
