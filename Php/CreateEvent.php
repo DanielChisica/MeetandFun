@@ -1,5 +1,5 @@
 <?php
-echo 'Funciona ome gonorrea';
+echo 'Funciona';
 if (isset($_POST['send']))
 {
     if(isset($_POST['fecha'],$_POST['hora'],$_POST['descripcion'],$_POST['integrantes'],
